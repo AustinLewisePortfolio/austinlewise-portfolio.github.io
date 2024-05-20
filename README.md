@@ -1,1 +1,118 @@
-# austinlewise-portfolio.github.io
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Austin Lewis</title>
+</head>
+
+<body>
+    <section id="about-me">
+        <nav>
+            <div class="personal__logo">Austin Lewis</div>
+            <ul class="nav__link--list">
+                <li>
+                    <a href="index.html" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black
+                        ">Home</a>
+                </li>
+                <li>
+                    <a href="Experiences.html" class="
+                        nav__link--anchor
+                        link__hover-effect
+                        link__hover-effect--black
+                        ">Experiences</a>
+                </li>
+                <li>
+                    <a href="Projects.html" class="
+                        nav__link--anchor
+                        nav__link--anchor-primary
+                        ">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="flex flex-1">
+            <div class="about-me__info row">
+                <div class="about-me__info--container">
+                    <figure class="about-me__picture--mask">
+                        <img src="./assests/IMG_1406.jpg" class="about-me__picture" alt="Picture of Me">
+                    </figure>
+                    <h1 class="about-me__info--title">Hey! I'm <span class="text--purple">Austin Lewis</span></h1>
+                    <p class="about-me__info--para">I'm a <strong class="text--purple">Computer Science student</strong>
+                        with an unwavering passion for developing web solutions and scripts that aim to benefit the
+                        modern world.</p>
+                    <div class="about-me__links">
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="" class="about-me__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto: aule683@gmail.com" class="about-me__link">
+                            <i class="far fa-envelope"></i>
+                        </a>
+                        <a href="./assests/AUSTIN LEWIS.docx" class="about-me__link" download>
+                            <i class="fas fa-file-word"></i>
+                        </a>
+                    </div>
+                </div>
+                <figure class="about-me__img--container">
+                    <img src="./assests/IMG6969.png" class="about-me__img" alt="Picture of wireframe">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="pro-philo">
+        <div class="pro-philo__row">
+            <div class="pro-philo__container">
+                <h1>Professional Philosophy</h1></span>
+                <div class="pro-philo__info">
+                    <i><p>My <span class="text--purple">professional philosophy</span> is to always aim for greatness; no matter how far I have to aim above
+                        the industry standard. Simplistic design, flawless functionality and exceptional user experience
+                        are all things that I strive for when completing any task. This will ensure that not only am I
+                        pushing myself to reach my professional limit, but also push the industry where it is normal to
+                        have extraordinary websites, applications and scripts for any and all applications.</p></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer__row">
+            <a href="index.html">
+                <figure class="footer__logo">
+                    <img src="./assests/logo.jpg" class="footer__logo--img" alt="logo">
+                </figure>
+            </a>
+            <div class="footer__social--list">
+                <a href="Github.com" target="_blank" class="
+                    footer__social--link
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">Github</a>
+                <a href="linkedin.com" target="_blank" class="
+                    footer__social--link
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">LinkedIn</a>
+                <a href="mailto: aule683@gmail.com" target="_blank" class="
+                    footer__social--link
+                    link__hover-effect
+                    link__hover-effect--white
+                    ">email</a>
+                <a href="./assests/AUSTIN LEWIS.docx" target="_blank" class="
+                    footer__social--link
+                    link__hover-effect
+                    link__hover-effect--white
+                    " download>Résumé</a>
+            </div>
+            <div class="footer__copyright">Copyright © 2024</div>
+        </div>
+    </footer>
+</body>
+
+</html>
